@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/test/java/co/com/bancolombia/certification/google/runner/GoogleTranslateRunner.java=UTF-8
+encoding//src/test/java/co/com/bancolombia/certification/google/runner/GoogleYoutubeRunner.java=UTF-8
+encoding//src/test/resources/features/google_translate.feature=UTF-8

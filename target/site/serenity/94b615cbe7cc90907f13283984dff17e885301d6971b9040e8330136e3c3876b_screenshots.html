@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="54665cd7975eec12054a84390257ae001f6476aa6e5c0c27042f32aa65287153.html">Youtube</a></span>
+                > <span class="truncate-60"><a
+                    href="94b615cbe7cc90907f13283984dff17e885301d6971b9040e8330136e3c3876b.html">Search my favorite song </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-06-2018 07:40</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Youtube </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a Web User<br />
+I want to use Youtube
+to watch videos and listen to music
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search my favorite song
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="95a4d31df08e41bc9e28824a8825e762f76c5263eccb7a115bf6fd9d8bafb23d.png" title="Given that Lauren opens her browser at Google Home Page" width="1034"/>
+                <img src="95a4d31df08e41bc9e28824a8825e762f76c5263eccb7a115bf6fd9d8bafb23d.png" title="Glendy opens the Google home page" width="1034"/>
+                <img src="4dad536d071cf86e8ee3fe4465588af5a3da585e4fdea9ec677c7f3746916025.png" title="And She goes to Youtube" width="1034"/>
+                <img src="69e848b1a6b531139242112afa049186734ed8061bb94d88f35af724cc4f6403.png" title="Glendy clicks on Google Apps Button" width="1034"/>
+                <img src="ed3ad8bccfb49b6adbbd9aabaebc9291693595c113a32fe3e528d2cd29c49706.png" title="Glendy clicks on Button Youtube" width="1034"/>
+                <img src="726146f3dc4739618bc2afd43b46aaf5fa5776f63cf652fc0ff39a79af2da4c0.png" title="Glendy clicks on Button Youtube" width="1034"/>
+                <img src="3ad6cd93914dc55f5e63eaa432c5ce7ed0b74fc486063845518595142ec76a18.png" title="When She searches the song A Thousand Years" width="1034"/>
+                <img src="309e62300218176d07267cbbab66c66c95a2a5952d6dd6f335017493e75d3296.png" title="When She searches the song A Thousand Years" width="1034"/>
+                <img src="ffa01e8c6989532ba8f3c2f4308612e9310fc9170932666ab235851943a2c0b6.png" title="Glendy enters 'A Thousand Years' into Song Text Area" width="1034"/>
+                <img src="7dde3f58cab4079dc9af90af6ec1c8d9a539b1e682d3f16c41148b26e5d6c33a.png" title="Glendy enters 'A Thousand Years' into Song Text Area" width="1034"/>
+                <img src="51ca47c8a4e4eb6bb44c41bad444ba9f9029c22e66e13c3745ba479aaa1711e1.png" title="Glendy clicks on Button Find" width="1034"/>
+                <img src="da6f9b59392c15ca98b73a6914a9fdb513b68e356ce847f12948bc4d989fc84b.png" title="Glendy clicks on Button Find" width="1034"/>
+                <img src="bd0b305d9f0df94924f9c270426e1fe0454a977c0b98f537c0580c2690efa553.png" title="Then She should see at least 1 video listed" width="1034"/>
+                <img src="bd29d33b8861b65b2801ca2525f235cd7ce35ca9f6288c8b907953f7a8591833.png" title="Then She should see at least 1 video listed" width="1034"/>
+                <img src="828a450f591ee95736b82459add1ca488e9a4ee91ad2e64a3b8aebce83d1659e.png" title="Then the list should be a value greater than (1)" width="1034"/>
+                <img src="bd29d33b8861b65b2801ca2525f235cd7ce35ca9f6288c8b907953f7a8591833.png" title="Then the list should be a value greater than (1): <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
