@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-05-2018 16:56</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-06-2018 10:06</span>
     <br style="clear:left"/>
 </div>
 
@@ -140,6 +140,12 @@ To translate words between different languages
 
                         </td>
                         <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="d78ca485f0f5270d8b0f857ac91d9e7a525643818ad42a3927fc12588b627a1d.html">Englishtospanish
+                                    (tag)</a>
+                                </span>
+                            </p>
                         </td>
                     </tr>
                 </table>
@@ -148,9 +154,9 @@ To translate words between different languages
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Translate from Spanish to English
+                                <span class="failing-color">Translate from Spanish to English
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -167,30 +173,78 @@ To translate words between different languages
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Assertion error: Expected: 'lobo' but: was 'wolf'">
+                            Assertion error: Expected: 'lobo' but: was 'wolf'
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.AssertionError
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Expected: &quot;lobo&quot;<br>     but: was &quot;wolf&quot;</pre>
+                                    </h5>
+                                    co.com.bancolombia.certification.google.stepdefinitions.GoogleTranslateStepDefinitions.TheUserShouldSeeTheWordInTheScreen(GoogleTranslateStepDefinitions.java
+                                    :59) <br>
+                                    ✽.She should see the word lobo in the screen(src/test/resources/features/google_translate.feature
+                                    :12) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource8291946681776937316.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="0475ab2223e46ad0a0016c1a75e60dc03ad6336db0d49a0c4f08f6fda11fa366.png" title="Given that Glendy opens her browser at Google Home Page" width="1034"/>
-                <img src="74aca186423aa20f0b5ae269ad6a39629ec7c4593d80d5c18e64a53cb7cef7fd.png" title="Glendy opens the Google home page" width="1034"/>
-                <img src="09eb4c10ac6b4fd541de44bb5a5d25487f101128b591382f486b73a0abe292e6.png" title="And She goes to Google Translate" width="1034"/>
-                <img src="3d5d799c1ebb3a50296b3c53c587aebf470bdabd0da1d00d0d7ff9883c4cbd98.png" title="Glendy clicks on Google Apps Button" width="1034"/>
-                <img src="f0a7a2985c9c6ebf3c7cb2747b752263be5fb9bc8ce5bf12485d7aa047405cf2.png" title="Glendy clicks on Google Apps Button" width="1034"/>
-                <img src="affcdbc525c6fc52c85c9a08274fea3015082a5782e1743155c9d6ef98e13138.png" title="Glendy clicks on Google Translate Button" width="1034"/>
-                <img src="09eb4c10ac6b4fd541de44bb5a5d25487f101128b591382f486b73a0abe292e6.png" title="Glendy clicks on Google Translate Button" width="1034"/>
-                <img src="9069a8eb2a705df33cf14fba7f3552a8b39e58b4c5164cb707b177d74bba4730.png" title="When She translate the word wolf from English to Spanish" width="1034"/>
-                <img src="53775d9e24b9ad5a5758db4b8be98b4381fcac9dd6dab645aa4943699bb37c56.png" title="When She translate the word wolf from English to Spanish" width="1034"/>
-                <img src="9069a8eb2a705df33cf14fba7f3552a8b39e58b4c5164cb707b177d74bba4730.png" title="Glendy clicks on Source Language Button" width="1034"/>
-                <img src="1f5ab78d1e156b6111193c19ee6e8322490f542a7d71ae549cc866ddff1e201f.png" title="Glendy clicks on Source Language Button" width="1034"/>
-                <img src="1f5ab78d1e156b6111193c19ee6e8322490f542a7d71ae549cc866ddff1e201f.png" title="Glendy clicks on Source Language English" width="1034"/>
-                <img src="8f61fd6dbb5ce1523c8e4772ca9e88538aae068b01c6c9decff3e6c717dd9abd.png" title="Glendy clicks on Source Language English" width="1034"/>
-                <img src="8f61fd6dbb5ce1523c8e4772ca9e88538aae068b01c6c9decff3e6c717dd9abd.png" title="Glendy clicks on Target Language Button" width="1034"/>
-                <img src="57449db35d87c3dbde72882b810deaa28bd2cfd312bd315320f2b45d130f8d9e.png" title="Glendy clicks on Target Language Button" width="1034"/>
-                <img src="57449db35d87c3dbde72882b810deaa28bd2cfd312bd315320f2b45d130f8d9e.png" title="Glendy clicks on Source Language Spanish" width="1034"/>
-                <img src="fb657cae4142755be71f20205be11b0853424774b26daf59900eaca26fb95618.png" title="Glendy clicks on Source Language Spanish" width="1034"/>
-                <img src="fb657cae4142755be71f20205be11b0853424774b26daf59900eaca26fb95618.png" title="Glendy enters 'wolf' into Source Language Text Area" width="1034"/>
-                <img src="cd655a3b184dccf84488a4daa8049df9381f52a9a3128f5bab339567e3a9a1cc.png" title="Glendy enters 'wolf' into Source Language Text Area" width="1034"/>
-                <img src="4c2040fff4d7c8efbe1fc53611ee8cd12f879ba6553b437598e24e91dfe1b69d.png" title="Glendy clicks on Translate Button" width="1034"/>
-                <img src="53775d9e24b9ad5a5758db4b8be98b4381fcac9dd6dab645aa4943699bb37c56.png" title="Glendy clicks on Translate Button" width="1034"/>
-                <img src="53775d9e24b9ad5a5758db4b8be98b4381fcac9dd6dab645aa4943699bb37c56.png" title="Then She should see the word lobo in the screen: <span class='success-color'>SUCCESS</span>" width="1034"/>
+                <img src="95a4d31df08e41bc9e28824a8825e762f76c5263eccb7a115bf6fd9d8bafb23d.png" title="Given that Glendy opens her browser at Google Home Page" width="1034"/>
+                <img src="3d5d799c1ebb3a50296b3c53c587aebf470bdabd0da1d00d0d7ff9883c4cbd98.png" title="Glendy opens the Google home page" width="1034"/>
+                <img src="2a7021e2979f3ba827a5d403ae6e0e4e754ec8101ab98e643ab87c69ef80b93c.png" title="And She goes to Google Translate" width="1034"/>
+                <img src="89934412c5669917692fbb241f2f9e959666f23fd0384b8df2abbe44cef10e01.png" title="Glendy clicks on Google Apps Button" width="1034"/>
+                <img src="89934412c5669917692fbb241f2f9e959666f23fd0384b8df2abbe44cef10e01.png" title="Glendy clicks on Google Translate Button" width="1034"/>
+                <img src="e175c022891cdbbefbd4832ddcb362aa51fd74c1efbd99a17096c38f2568c352.png" title="Glendy clicks on Google Translate Button" width="1034"/>
+                <img src="e175c022891cdbbefbd4832ddcb362aa51fd74c1efbd99a17096c38f2568c352.png" title="When She translate the word wolf from English to Spanish" width="1034"/>
+                <img src="79810b112d0ce799ee42c90cc43ab326d082849e75538a964fce2c1c7f65114a.png" title="When She translate the word wolf from English to Spanish" width="1034"/>
+                <img src="e175c022891cdbbefbd4832ddcb362aa51fd74c1efbd99a17096c38f2568c352.png" title="Glendy clicks on Source Language Button" width="1034"/>
+                <img src="aa0d2c2f7ae6141e3dc6bb293c63510d861bcb26278651ce4e7b0757e6a50fba.png" title="Glendy clicks on Source Language Button" width="1034"/>
+                <img src="aa0d2c2f7ae6141e3dc6bb293c63510d861bcb26278651ce4e7b0757e6a50fba.png" title="Glendy clicks on Source Language English" width="1034"/>
+                <img src="e556c899471676c9b41212b1332d369e4f87cf32b784f238c4823911daeef3fc.png" title="Glendy clicks on Source Language English" width="1034"/>
+                <img src="e556c899471676c9b41212b1332d369e4f87cf32b784f238c4823911daeef3fc.png" title="Glendy clicks on Target Language Button" width="1034"/>
+                <img src="fb77086ae5fc089760bbf976c6babe4ac7862bd4dc07623e0d8af2d2802423c2.png" title="Glendy clicks on Target Language Button" width="1034"/>
+                <img src="fb77086ae5fc089760bbf976c6babe4ac7862bd4dc07623e0d8af2d2802423c2.png" title="Glendy clicks on Source Language Spanish" width="1034"/>
+                <img src="f8b87e1ec50a22d65946fe68fdd65d91be714132cf91983e2897b98393f13108.png" title="Glendy clicks on Source Language Spanish" width="1034"/>
+                <img src="f8b87e1ec50a22d65946fe68fdd65d91be714132cf91983e2897b98393f13108.png" title="Glendy enters 'wolf' into Source Language Text Area" width="1034"/>
+                <img src="ecfc25fbf5da91526b9ea8cfa160c1caf7a21620ebdfe731a7f5b0a6603a290e.png" title="Glendy enters 'wolf' into Source Language Text Area" width="1034"/>
+                <img src="bab24a57a5580960d9526a04030457f795ee68d373b1d28c3065e8ac68aeed1c.png" title="Glendy clicks on Translate Button" width="1034"/>
+                <img src="1f1cc80d95f181707cfaf1e6ba31861df26bd229011cf8343e098218ba22223a.png" title="Glendy clicks on Translate Button" width="1034"/>
+                <img src="79810b112d0ce799ee42c90cc43ab326d082849e75538a964fce2c1c7f65114a.png" title="Then She should see the word lobo in the screen" width="1034"/>
+                <img src="79810b112d0ce799ee42c90cc43ab326d082849e75538a964fce2c1c7f65114a.png" title="Then the result should be 'lobo': <span class='failing-color'>FAILURE</span>" width="1034"/>
             </div>
         </div>
 

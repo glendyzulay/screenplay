@@ -43,12 +43,6 @@ public class GoogleTranslateStepDefinitions {
 	    
 	}
 
-	/*@Given("^She goes to (.*)$")
-	public void TheUserGoesTo(String googleApp) throws Exception {
-		glendy.wasAbleTo(GoTo.theApp(GoogleAppsComponent.GOOGLE_TRANSLATE));
-	
-	}*/
-	
 	@Given("^She goes to (.*)$")
 	public void TheUserGoesTo(String googleApp) throws Exception {
 		glendy.wasAbleTo(GoTo.theApp(new PageExpression(googleApp)));

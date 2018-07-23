@@ -12,12 +12,7 @@ import net.serenitybdd.screenplay.actions.Click;
 
 public class GoTo implements Task {
 	
-	//private Target googleApp;
 	private PageExpression pageExpression;
-	
-	/*public GoTo(Target googleApp) {
-		this.googleApp = googleApp;
-	}*/
 	
 	public GoTo(PageExpression pageExpression) {
 		this.pageExpression = pageExpression;
@@ -26,16 +21,9 @@ public class GoTo implements Task {
 	@Override
 	public <T extends Actor> void performAs(T actor) {
 		actor.attemptsTo(Click.on(GoogleAppsComponent.GOOGLE_APS));	
-		actor.attemptsTo(Click.on(StringToTarget.getGoogleAppTarget(pageExpression.getGoogleApp())));
-	    //actor.attemptsTo(Click.on(GoogleAppsComponent.GOOGLE_MAS));
-		//actor.attemptsTo(Click.on(googleApp));
+		actor.attemptsTo(Click.on(StringToTarget.getGoogleAppTarget(pageExpression.getGoogleApp())));	    
 	}
 
-	/*public static GoTo theApp(Target googleApp) {
-		
-		return instrumented (GoTo.class, googleApp);
-	}*/
-	
 	public static GoTo theApp(PageExpression pageExpression) {
 		return instrumented(GoTo.class, pageExpression);
 	}

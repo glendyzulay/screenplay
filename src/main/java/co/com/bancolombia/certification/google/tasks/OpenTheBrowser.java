@@ -21,7 +21,6 @@ public class OpenTheBrowser implements Task {
 	}
 
 	public static OpenTheBrowser at(PageObject page) {		
-		//return new OpenTheBrowser();
 		return instrumented(OpenTheBrowser.class, page);
 	}
 

@@ -8,7 +8,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 		features= "src/test/resources/features/google_translate.feature",
-		glue = "co.com.bancolombia.certification.google.stepdefinitions"
+		glue = "co.com.bancolombia.certification.google.stepdefinitions" , tags="@JapanesetoKorean"
 )
 public class GoogleTranslateRunner {
 
